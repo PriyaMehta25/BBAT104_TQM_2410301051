@@ -1,0 +1,4 @@
+# Core application uses only the Python 3 standard library.
+# Optional SQC/reporting packages referenced by the course guideline:
+matplotlib>=3.8
+pandas>=2.0

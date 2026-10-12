@@ -1,0 +1,50 @@
+BBAT104 TQM PROJECT - TEACHER-ALIGNED SPECIFICATION
+
+Student: Priya Mehta
+Roll No.: 2410301051
+Branch/Section: CSE/A
+Baseline: Library Management System
+Quality Goal: Q06 - Reduce Duplicate Entries
+
+REFERENCE ALIGNMENT
+- Report organization follows the supplied Synopsis/Report Template: front matter, Introduction, Review of Literature, Materials and Method, Results and Discussion, Conclusion, References, Abbreviations and Appendix.
+- Software structure follows the supplied TQM Pharmacy Project discussion as a reference for modular separation: main entry point, config, database, models, services, UI, reports and utilities.
+- Pharmacy-specific requirements were not copied into this Library project; they were translated into Library/Q06 equivalents.
+
+QUALITY FEATURES
+1. Unique ISBN constraints
+2. Unique member-code constraints
+3. Pre-add validation
+4. Search Before Add
+5. Confirmation dialogs
+
+PROCESS RULE
+UI -> Service -> Model/Database -> Reports/TQM
+No SQL is written inside UI modules.
+
+TQM LOOP
+Transaction data -> audit/error logs -> defect counts -> Pareto/FMEA -> PDCA -> improved controls.
+
+MAIN MODULES
+- Dashboard
+- Books CRUD
+- Members CRUD
+- Issue/Return
+- Quality monitor
+- Backup
+
+DATA TABLES
+- books
+- members
+- issues
+- audit_logs
+- error_logs
+
+RISK / QUALITY EVIDENCE
+- SIPOC process map
+- CTQ tree
+- FMEA RPN analysis
+- Checksheet/Defect log
+- Pareto chart
+- Fishbone diagram
+- PDCA cycle
