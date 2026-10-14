@@ -37,6 +37,9 @@ To run the automated tests, open the VS Code terminal and type:
 ```bash
 python -m unittest discover -s tests -v
 ```
+The tests cover duplicate ISBNs, duplicate member codes, duplicate emails, duplicate phone numbers, invalid inputs, and valid record creation.
+
+**Last verified locally:** 12 tests passed.
 
 ## Folder map
 ```text
