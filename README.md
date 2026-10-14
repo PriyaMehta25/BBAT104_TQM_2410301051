@@ -29,6 +29,13 @@ The project follows the supplied reference discussion's separation of concerns:
 ## Run
 ```bash
 python run.py
+
+## Testing
+
+To run the automated tests, open the VS Code terminal and type:
+
+```bash
+python -m unittest discover -s tests -v
 ```
 
 ## Folder map
